@@ -1,0 +1,81 @@
+.about-us-container {
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .about-us-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .about-us-header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .about-us-header p {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  .mission-vision h2,
+  .values h2,
+  .our-team h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  .mission-vision p,
+  .values p {
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  .values-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+  }
+  
+  .value-item {
+    flex: 1 1 calc(25% - 30px);
+    min-width: 200px;
+  }
+  
+  .value-item h3 {
+    font-size: 1.3rem;
+    color: #444;
+  }
+  
+  .team-members {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .team-member {
+    text-align: center;
+  }
+  
+  .team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .team-member h3 {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .team-member p {
+    color: #777;
+  }
+  

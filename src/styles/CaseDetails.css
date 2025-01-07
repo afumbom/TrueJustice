@@ -1,0 +1,90 @@
+.case-details {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .case-title {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    margin: 10px 0;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #555;
+  }
+  
+  .status {
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+  
+  .status.solved {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .status.pending {
+    background-color: #ffc107;
+    color: #fff;
+  }
+  
+  .status.in-progress {
+    background-color: #17a2b8;
+    color: #fff;
+  }
+  
+  .status.rejected {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  .evidence-section {
+    margin-top: 20px;
+  }
+  
+  .evidence-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .back-button {
+    margin-top: 20px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .back-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .loading {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #007bff;
+  }
+  
+  .error {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #dc3545;
+  }
+  

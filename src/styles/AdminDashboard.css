@@ -1,0 +1,84 @@
+.admin-dashboard {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .dashboard-title {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .cases-title {
+    margin-top: 30px;
+    font-size: 1.5rem;
+    color: #555;
+  }
+  
+  .cases-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .case-item {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .case-category {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .case-status {
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+  
+  .case-status.solved {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .case-status.pending {
+    background-color: #ffc107;
+    color: #fff;
+  }
+  
+  .case-status.in-progress {
+    background-color: #17a2b8;
+    color: #fff;
+  }
+  
+  .case-status.rejected {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  .loading {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #007bff;
+  }
+  
+  .error {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #dc3545;
+  }
+  
