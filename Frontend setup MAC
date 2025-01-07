@@ -1,0 +1,77 @@
+To set up the frontend for TrueJustice using React.js, follow these steps:
+
+1. Prerequisites:
+Ensure Node.js and npm are installed. Download them from Node.js.
+Install Git for version control.
+Choose a code editor like VS Code.
+2. Initialize the Project:
+Create a new React app:
+
+bash
+Copy code
+npx create-react-app truejustice-frontend
+cd truejustice-frontend
+
+Clean up the default project structure: Remove unnecessary files:
+
+Delete src/logo.svg, src/App.css, and src/reportWebVitals.js.
+Edit src/App.js to remove boilerplate content.
+
+3. Install Required Packages:
+Run the following commands to install the necessary libraries:
+
+Core Libraries:
+
+bash
+Copy code
+npm install react-router-dom axios
+
+State Management:
+bash
+Copy code
+npm install @reduxjs/toolkit react-redux
+
+Styling:
+Choose one:
+
+Material-UI:
+
+bash
+Copy code
+npm install @mui/material @emotion/react @emotion/styled
+
+Tailwind CSS:
+
+bash
+Copy code
+npm install -D tailwindcss postcss autoprefixer
+
+npx tailwindcss init
+Add Tailwind to src/index.css:
+
+css
+Copy code
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+Form Management and Validation:
+
+bash
+Copy code
+npm install formik yup
+
+Notifications:
+bash
+Copy code
+npm install react-toastify
+
+File Upload:
+bash
+Copy code
+npm install react-dropzone
+
+Others:
+bash
+Copy code
+npm install moment react-icons
